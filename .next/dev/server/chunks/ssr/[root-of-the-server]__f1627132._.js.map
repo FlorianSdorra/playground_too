@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/fsd/Projects/road-to-next/app/page.tsx"],"sourcesContent":["export default function Page() {\n  return <h1>Test</h1>;\n}\n\n// \"use client\";\n\n// import { CalendarView } from \"@calcom/atoms\";\n// import { BookerProps } from \"@calcom/atoms/dist/packages/features/bookings/Booker\";\n\n// export default function Booker(props: BookerProps) {\n//   return (\n//     <div>\n//       <CalendarView\n//         username={props.username}\n//         eventSlug={props.eventSlug}\n//       ></CalendarView>\n//     </div>\n//   );\n// }\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,8OAAC;kBAAG;;;;;;AACb,EAEA,gBAAgB;CAEhB,gDAAgD;CAChD,sFAAsF;CAEtF,uDAAuD;CACvD,aAAa;CACb,YAAY;CACZ,sBAAsB;CACtB,oCAAoC;CACpC,sCAAsC;CACtC,yBAAyB;CACzB,aAAa;CACb,OAAO;CACP,IAAI","debugId":null}}]
+}

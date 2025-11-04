@@ -1,0 +1,26 @@
+[00:00:01.611] Server  LOG      ✓ Ready in 1428ms
+[00:01:31.815] Server  ERROR   forwardRef render functions accept exactly two parameters: props and ref. Did you forget to use the ref parameter?
+[00:01:31.882] Server  WARN    `markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
+[00:01:32.452] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
+[00:01:33.449] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
+[00:01:33.449] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
+[00:01:51.029] Server  LOG      ✓ Compiled in 16ms
+[00:01:51.034] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:52.863] Server  ERROR   forwardRef render functions accept exactly two parameters: props and ref. Did you forget to use the ref parameter?
+[00:01:52.902] Server  WARN    `markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
+[00:01:53.552] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
+[00:01:54.508] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
+[00:01:54.508] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
+[00:02:12.291] Server  LOG      ✓ Compiled in 14ms
+[00:02:12.304] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:14.130] Server  ERROR   forwardRef render functions accept exactly two parameters: props and ref. Did you forget to use the ref parameter?
+[00:02:14.169] Server  WARN    `markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
+[00:02:14.805] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
+[00:02:15.741] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
+[00:02:15.741] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
+[00:02:29.296] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
+[00:02:30.548] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
+[00:02:30.548] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
+[00:03:23.631] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:23.648] Server  LOG      ✓ Compiled in 93ms
+[00:03:35.642] Server  LOG      ✓ Compiled in 5ms
