@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 
-function Heading({ title, description }) {
+function Heading({ title, description, children }) {
   return (
     <div
       style={{
@@ -9,7 +9,9 @@ function Heading({ title, description }) {
         fontWeight: "bold",
       }}
     >
+      {children}
       <h1>{title}</h1>
+
       <span>{description}</span>
     </div>
   );
@@ -25,9 +27,10 @@ export default function Page() {
   };
   return (
     <div>
-      <Heading title={title} description={discription} />
+      <Heading title={title} description={discription}>
+        <button onClick={handleUpvote}>Upvote ({vote})</button>
+      </Heading>
       <p>some more here ...</p>
-      <button onClick={handleUpvote}>Upvote ({vote})</button>
     </div>
   );
 }

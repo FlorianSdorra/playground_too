@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/fsd/Projects/road-to-next/app/page.js"],"sourcesContent":["\"use-client\";\n\nimport { CalendarView } from \"@calcom/atoms\";\n\nexport default function Page() {\n  return <CalendarView />;\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBAAO,8OAAC,oNAAY;;;;;AACtB","debugId":null}}]
-}

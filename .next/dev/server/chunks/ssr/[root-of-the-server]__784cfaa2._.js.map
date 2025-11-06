@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/fsd/Projects/road-to-next/app/page.tsx"],"sourcesContent":["import { CalendarView } from \"@calcom/atoms\";\n\nexport default function Booker(props) {\n  return (\n    <div>\n      <CalendarView username={props.calUsername} eventSlug={props.eventSlug} />\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS,OAAO,KAAK;IAClC,qBACE,8OAAC;kBACC,cAAA,8OAAC,oNAAY;YAAC,UAAU,MAAM,WAAW;YAAE,WAAW,MAAM,SAAS;;;;;;;;;;;AAG3E","debugId":null}}]
-}

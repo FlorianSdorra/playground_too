@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/fsd/Projects/road-to-next/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { CalendarView } from \"@calcom/atoms\";\nimport { BookerProps } from \"@calcom/atoms/dist/packages/features/bookings/Booker\";\n\nexport default function Booker(props: BookerProps) {\n  return (\n    <div>\n      <CalendarView\n        username={props.username}\n        eventSlug={props.eventSlug}\n      ></CalendarView>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAKe,SAAS,OAAO,KAAkB;IAC/C,qBACE,6LAAC;kBACC,cAAA,6LAAC,uNAAY;YACX,UAAU,MAAM,QAAQ;YACxB,WAAW,MAAM,SAAS;;;;;;;;;;;AAIlC;KATwB","debugId":null}}]
-}
