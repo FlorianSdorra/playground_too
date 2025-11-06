@@ -1,26 +1,16 @@
-[00:00:01.611] Server  LOG      ✓ Ready in 1428ms
-[00:01:31.815] Server  ERROR   forwardRef render functions accept exactly two parameters: props and ref. Did you forget to use the ref parameter?
-[00:01:31.882] Server  WARN    `markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
-[00:01:32.452] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
-[00:01:33.449] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
-[00:01:33.449] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
-[00:01:51.029] Server  LOG      ✓ Compiled in 16ms
-[00:01:51.034] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:01:52.863] Server  ERROR   forwardRef render functions accept exactly two parameters: props and ref. Did you forget to use the ref parameter?
-[00:01:52.902] Server  WARN    `markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
-[00:01:53.552] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
-[00:01:54.508] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
-[00:01:54.508] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
-[00:02:12.291] Server  LOG      ✓ Compiled in 14ms
-[00:02:12.304] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:14.130] Server  ERROR   forwardRef render functions accept exactly two parameters: props and ref. Did you forget to use the ref parameter?
-[00:02:14.169] Server  WARN    `markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
-[00:02:14.805] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
-[00:02:15.741] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
-[00:02:15.741] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
-[00:02:29.296] Server  ERROR    ⨯ Error: No QueryClient set, use QueryClientProvider to set one
-[00:02:30.548] Browser ERROR   forwardRef render functions accept exactly two parameters: props and ref. %s Did you forget to use the ref parameter?
-[00:02:30.548] Browser ERROR   uncaughtError: Error: No QueryClient set, use QueryClientProvider to set one
-[00:03:23.631] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:03:23.648] Server  LOG      ✓ Compiled in 93ms
-[00:03:35.642] Server  LOG      ✓ Compiled in 5ms
+[00:00:01.490] Server  LOG      ✓ Ready in 1284ms
+[00:07:27.469] Server  LOG      ✓ Compiled in 8ms
+[00:07:27.619] Server  ERROR    ⨯ ReferenceError: getTitle is not defined
+[00:07:27.742] Browser ERROR   uncaughtError: ReferenceError: getTitle is not defined
+[00:07:34.486] Server  LOG      ✓ Compiled in 4ms
+[00:10:28.155] Server  LOG      ✓ Compiled in 10ms
+[00:10:38.300] Server  LOG      ✓ Compiled in 4ms
+[00:11:48.183] Server  LOG      ✓ Compiled in 24ms
+[00:16:29.832] Server  LOG      ✓ Compiled in 8ms
+[00:17:16.545] Server  LOG      ✓ Compiled in 6ms
+[00:17:16.701] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'title')
+[00:17:17.765] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'title')
+[00:19:36.902] Server  LOG      ✓ Compiled in 4ms
+[00:20:35.287] Server  LOG      ✓ Compiled in 9ms
+[00:22:15.232] Server  LOG      ✓ Compiled in 10ms
+[00:22:51.070] Server  LOG      ✓ Compiled in 7ms

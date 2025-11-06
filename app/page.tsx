@@ -1,5 +1,21 @@
+function Heading({ title, description }) {
+  return (
+    <div>
+      <h1>{title}</h1>
+      <span>{description}</span>
+    </div>
+  );
+}
+
 export default function Page() {
-  return <h1>Test</h1>;
+  const title = "Page Test !!!!";
+  const discription = "This is a react Primer...";
+  return (
+    <div>
+      <Heading title={title} description={discription} />
+      <p>some more here ...</p>
+    </div>
+  );
 }
 
 // "use client";
