@@ -1,3 +1,6 @@
+"use client";
+import { useState } from "react";
+
 function Heading({ title, description }) {
   return (
     <div
@@ -15,10 +18,16 @@ function Heading({ title, description }) {
 export default function Page() {
   const title = "Page Test !!!!";
   const discription = "This is a react Primer...";
+  const [vote, setVote] = useState(0);
+
+  const handleUpvote = () => {
+    setVote(vote + 1);
+  };
   return (
     <div>
       <Heading title={title} description={discription} />
       <p>some more here ...</p>
+      <button onClick={handleUpvote}>Upvote ({vote})</button>
     </div>
   );
 }

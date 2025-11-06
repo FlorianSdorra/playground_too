@@ -14,3 +14,28 @@
 [00:20:35.287] Server  LOG      ✓ Compiled in 9ms
 [00:22:15.232] Server  LOG      ✓ Compiled in 10ms
 [00:22:51.070] Server  LOG      ✓ Compiled in 7ms
+[00:32:13.091] Server  LOG      ✓ Compiled in 16ms
+[00:33:27.736] Server  LOG      ✓ Compiled in 24ms
+[00:34:00.398] Server  LOG      ✓ Compiled in 3ms
+[00:34:00.721] Server  ERROR    ⨯ Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function handleUpvote} children=...>
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:00.849] Browser ERROR   uncaughtError: Error: Event handlers cannot be passed to Client Component props.
+  <button onClick={function handleUpvote} children=...>
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component.
+[00:34:36.205] Server  LOG      ✓ Compiled in 65ms
+[00:34:43.803] Browser LOG     works
+[00:34:46.878] Browser LOG     works
+[00:34:53.316] Browser LOG     works
+[00:34:54.234] Browser LOG     works
+[00:34:55.162] Browser LOG     works
+[00:35:46.644] Server  LOG      ✓ Compiled in 12ms
+[00:38:36.812] Browser LOG     works
+[00:38:37.883] Browser LOG     works
+[00:38:58.063] Server  LOG      ✓ Compiled in 22ms
+[00:44:32.014] Server  LOG      ✓ Compiled in 20ms
+[00:45:17.372] Server  LOG      ✓ Compiled in 40ms
+[00:47:50.765] Server  LOG      ✓ Compiled in 10ms
+[00:48:23.680] Server  LOG      ✓ Compiled in 13ms
