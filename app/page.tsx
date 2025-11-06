@@ -1,6 +1,11 @@
 function Heading({ title, description }) {
   return (
-    <div>
+    <div
+      style={{
+        padding: "10px",
+        fontWeight: "bold",
+      }}
+    >
       <h1>{title}</h1>
       <span>{description}</span>
     </div>
