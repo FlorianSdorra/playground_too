@@ -1,21 +1,6 @@
 "use client";
 import { useState } from "react";
-
-function Heading({ title, description, children }) {
-  return (
-    <div
-      style={{
-        padding: "10px",
-        fontWeight: "bold",
-      }}
-    >
-      {children}
-      <h1>{title}</h1>
-
-      <span>{description}</span>
-    </div>
-  );
-}
+import { Heading } from "./heading";
 
 export default function Page() {
   const title = "Page Test !!!!";
